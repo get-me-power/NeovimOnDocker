@@ -21,9 +21,6 @@ else
     # 競合を起こさないよう、強制的に最新のリモートリポジトリに合わせる
     result=` git pull origin ${branch}`
     if [ "`echo $result | grep 'Already'`" ]; then
-        echo 'Already up to date'
-        echo 'finish'
-    else
         echo 'git pull is success!'
         # build
         cd ~/neovim
