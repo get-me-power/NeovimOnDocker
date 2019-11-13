@@ -1,13 +1,13 @@
-# DockerOnVim
+# NeovimOnDocker
 
 This repo is to create development environment to vim-airline on docker
 
-# How to use
+# How to use first
 
-1. `docker build ./ -t vim`
-2. `docker run -it -d --name vim-airline vim`
-3. `docker exec -it vim-airline /bin/bash`
-4. `sh ~/.vim/bin/vim_build.sh`
+1. `docker build ./ -t neovim`
+2. `docker run -it -d --name neovim neovim`
+3. `docker exec -it neovim /bin/bash`
+4. `sh ~/.config/nvim/bin/linux_build.sh`
 
 ## Reference
 
