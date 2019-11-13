@@ -28,7 +28,6 @@ endif
 
 " ----setting init.vim -----"
 syntax enable
-colorscheme gotham256
 set nowrap
 set completeopt=menuone
 set autoindent
